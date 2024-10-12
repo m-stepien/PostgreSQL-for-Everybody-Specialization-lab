@@ -12,24 +12,10 @@
 def secrets():
     return {"host": "pg.pg4e.com",
             "port": 5432,
-            "database": "pg4e_a728e75cf7",
-            "user": "pg4e_a728e75cf7",
-            "pass": null"}
+            "database": none,
+            "user": none,
+            "pass": none"}
 
-def elastic() :
-    return {"host": "www.pg4e.com",
-            "prefix" : "elasticsearch",
-            "port": 443,
-            "scheme": "https",
-            "user": "pg4e_86f9be92a2",
-            "pass": "2008_9d454b1f"}
-
-def readonly():
-    return {"host": "pg.pg4e.com",
-            "port": 5432,
-            "database": "readonly",
-            "user": "readonly",
-            "pass": "readonly_password"}
 
 # Return a psycopg2 connection string
 
